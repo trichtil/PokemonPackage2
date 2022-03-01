@@ -1,0 +1,18 @@
+Package: Pokemon
+Title: Package for getting information about Pokemon
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Julia",
+           family = "Hartnett",
+           role = c("aut", "cre"),
+           email = "julia.hartnett@simmons.edu")
+Description: In class example using Pokemon. The data set consisits of rows of pokemon and columns of attributes like name, HP, class, etc.
+License: `use_mit_license()`, `use_gpl3_license()` or friends to
+    pick a license
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.2
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
